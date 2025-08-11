@@ -10,7 +10,9 @@ public class serviceCalculate {
         return a * b;
     }
 
-    public static String checkString(String str) { return str; }
+    public static String checkString(String str) { 
+        return str; 
+    }
 
     public static int add(int a, int b) { return a + b; }
 
