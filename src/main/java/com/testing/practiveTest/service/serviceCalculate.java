@@ -14,7 +14,9 @@ public class serviceCalculate {
         return str; 
     }
 
-    public static int add(int a, int b) { return a + b; }
+    public static int add(int a, int b) { 
+        return a + b;
+    }
 
     public static int sumArray(int[] arr) {
         int sum = 0;
