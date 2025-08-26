@@ -23,31 +23,26 @@
 	</properties>
 
 	<dependencies>
-		<!-- Spring Boot Starter Web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!-- Lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
 
-		<!-- Spring Boot Starter Test (includes JUnit 5 and Mockito) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 			<exclusions>
-				<!-- Exclude JUnit 4 to ensure only JUnit 5 is used -->
 				<exclusion>
 					<groupId>junit</groupId>
 					<artifactId>junit</artifactId>
 				</exclusion>
-				<!-- Exclude vintage engine to disable JUnit 4 support -->
 				<exclusion>
 					<groupId>org.junit.vintage</groupId>
 					<artifactId>junit-vintage-engine</artifactId>
@@ -55,7 +50,6 @@
 			</exclusions>
 		</dependency>
 
-		<!-- Optional: Explicit JUnit Jupiter (JUnit 5) if needed -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
@@ -76,7 +70,7 @@
 						<path>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
-							<version>1.18.32</version>
+							<version>1.18.33</version>
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
